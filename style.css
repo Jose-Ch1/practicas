@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://media.giphy.com/media/U4ExkAvRpVQGB0NMe0/giphy.gif);
+    background-size: 100% 100%;
+    background-attachment: fixed ;
+}  
+
+.cuadro{
+    margin: auto;
+    width: 960px;
+    height: 650;
+    padding: 5px;
+    border: 3px white ;
+    padding: 2px;
+    background-color: #324f7d;
+}
+
+.titu-log{
+    background: #0d203f;
+    width: 100%;
+    height: auto;
+    float: left;
+    opacity: 0.7;
+    
+}
+
+.cuadrodetexto{
+    width: 50%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 2%;
+    height: 80%;
+    border-radius: 18px;
+    background: #141d2b;
+    color: rgb(158,235,71);
+    font-size: 20px;
+    opacity: 0.8;
+
+}
+
+#text{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: rgb(158,235,71);
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #141d2b;
+}
+
+
+.resultado{
+    margin-top: 2%;
+    width: 43%;
+    height: auto;
+    float: right;
+    border-radius: 18px;
+    background-color: #141d2b;
+    opacity: 0.9;
+    color: chartreuse;
+}
+.botones{
+    margin: 20%;
+    float: left;
+    width: 60%;
+    height: auto;
+    border-radius: 18px;
+    background-color: #141d2b;
+    font-size: 20px;
+    color: aliceblue;
+}
+.cuadrodetexto:hover{
+    box-shadow: 0px 0px 3px 5px rgb(128, 255, 0);
+}
+.resultado:hover{
+    box-shadow: 0px 0px 3px 5px rgb(128, 255, 0);
+}
+.encriptar:hover{
+    box-shadow: 0px 0px 6px 4px rgb(128, 255, 0);
+}
+.desencriptar:hover{
+    box-shadow: 0px 0px 6px 4px rgb(128, 255, 0);
+}
+.copy:hover{
+    box-shadow: 0px 0px 6px 4px rgb(128, 255, 0);
+}
+.minu{
+    font-size: 12px;
+    text-align: left;
+}
+.imgl{
+    margin-top: 5%;
+    margin-left: 2%;
+    float: inherit;
+}
+.tprincipal{
+    margin-left: 20%;
+    margin: 5%;
+    float: inherit;
+    font-size: 18px;
+    color: white;
+}
+.nino{
+    margin-top: 20%;
+    margin-left: 15%;
+    width: 70%;
+    height: auto;
+}
+.ocultarimagen{display: none;}
+
+.txtresul{
+    margin-left: 7%;
+    margin-right: 5%;
+    color: rgb(158,235,71);
+}
+.txtresul2{
+    float: left;
+    margin-left: 10%;
+    color:#141d2b ;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+
+}
+.copy{
+    margin: 3%;
+    padding: 10px;
+    width: 40%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 30%;
+    background: chartreuse;
+    color: #2b4774;
+}
+.encriptar{
+    padding: 15px;
+    width: 40%;
+    height: 60%;
+    border-radius: 18px;
+    margin-left: 1%;
+    background: chartreuse;
+    color: #2b4774;
+}
+.desencriptar{
+    padding: 15px;
+    width: 40%;
+    height: 60%;
+    border-radius: 18px;
+    margin-left: 7%;
+    background: chartreuse;
+    color: #2b4774;
+}

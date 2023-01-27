@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/bdc070ac4f.js" crossorigin="anonymous"></script>
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <main>
+        <div class="cuadro">
+            <div class="titu-log">
+                <img  class="imgl" src="./imagenes/Vector.png" alt="logo">
+                <h1 class="tprincipal">¡Bienvenido Usa nuestro encriptador 
+                    de mensajes, es el mejor! </h1>
+            </div>
+    
+            <div class="cuadrodetexto">
+                <div class="cradroarea">
+                    <textarea name="text" id="text" cols="15" rows="5" class="text-area" placeholder="Inserte el texto" autofocus></textarea>
+    
+                </div>
+    
+                <div class="botones">
+                    <div class="solom">
+                        <p class="minu" id="error">
+                            <img src="./imagenes/Vector (2).png" alt="icono"> 
+                            Solo letras minusculas y sin acentos
+                          </p>
+                    </div>
+                    <button class="encriptar" onclick="encriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div> 
+            </div>
+                <div class="resultado">
+                    <div>
+                        <img src="./imagenes/1.png" alt="imagen muneco" class="nino" id="imagen">
+                            
+                        <section class="sect" id="resultado">
+                          <h1 class="txtresul">¡Ups! aún no has escrito nada</h1>
+                          <p class="txtresul2">Ingresa el texto que desees encriptar o desencriptar</p>
+                        </section>
+                    </div>   
+            
+                    <div class="btcopiar">
+                        <button class="copy" id="copiar" hidden>Copiar</button>      
+                    </div>
+                       
+                </div>
+        </div>
+  
+       
+    
+
+        <script src="./functions.js"></script>
+    
+    </main>
+  </body>
+
+</html>
